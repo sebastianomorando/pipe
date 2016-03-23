@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Allura);
+
+/* ICOMOON */
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot?oad5fx');
+  src:url('fonts/icomoon.eot?oad5fx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?oad5fx') format('truetype'),
+    url('fonts/icomoon.woff?oad5fx') format('woff'),
+    url('fonts/icomoon.svg?oad5fx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pipe:before {
+  content: "\e900";
+}
+
+/* END ICOMOON */
+
+
+a 
+{
+  text-decoration:none;
+}
+
+#ceci 
+{
+  font-family: 'Allura', cursive;
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+  color:#333;
+}
+
+#centered 
+{
+  position: relative;
+  width: 320px;
+  margin-top: 70px;
+  margin-left: -160px;
+  left: 50%;
+  text-align:center;
+}
+
+#social
+{
+  position:relative;
+  text-align: left;
+  color:#333;
+  width:320px;
+  left: 50%;
+  margin-left: -160px;
+}
+
+#social a
+{
+  position:relative;
+  color:#333;
+  margin: 10px;
+  transition: color 1s ease;
+}
+
+#social a:hover
+{
+  color: #000;
+}
+
+.icon-pipe.big
+{
+  font-size:150px;
+  text-align: center;
+  color: #333;
+  transition: color 1s ease, text-shadow 1s ease;  
+}
+
+.icon-pipe.big:hover
+{
+  color: #000;
+    text-shadow: 0px 2px 8px #333;
+}
+
+#dati
+{
+  text-align: center;
+  margin-top: 40px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
