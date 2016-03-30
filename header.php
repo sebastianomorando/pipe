@@ -28,7 +28,7 @@ media="screen,projection" />
 
 <body <?php body_class( ); ?>>
 
-<div id="wrapper">
+<div id="wrapper" class="container">
 
 <div id="header" class="section">
 

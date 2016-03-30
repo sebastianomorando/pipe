@@ -9,7 +9,6 @@
 <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 
 <p class="postmetadata before"><?php _e('Posted by '); ?><a href="<?php get_the_author_link(); ?>"><?php the_author(); ?></a></p>
-AAAAAAAA
 
 
 <?php the_content('Read more...'); ?>
