@@ -10,7 +10,7 @@
 
 <?php wp_title('|', true, 'right'); ?>
 
-<?php bloginfo('name'); if ( is_home() ) echo ' | The University'; ?>
+<?php bloginfo('name'); ?>
 
 </title>
 
@@ -18,9 +18,7 @@
 
 <meta name="viewport" content="width = device-width, initial-scale = 1.0">
 
-<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" 
-
-media="screen,projection" />
+<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen,projection" />
 
 <?php wp_head(); ?>
 
@@ -30,11 +28,11 @@ media="screen,projection" />
 
 <div id="wrapper" class="container">
 
-<div id="header" class="section">
+<header>
 
-<h1 class="header"> <a href="/"><?php bloginfo('name'); ?></a> </h1>
+<h1 class="header">  <a href="/"><span class="icon-pipe"> </span><?php bloginfo('name'); ?></a> </h1>
 
-</div>
+</header>
 
 <div id="nav-top">
 
